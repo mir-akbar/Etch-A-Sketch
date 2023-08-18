@@ -55,6 +55,7 @@ nav {
 }
 
 .colorPicker::-webkit-color-swatch {
+    -webkit-appearance: none;
     border-radius: 15px;
     transition: all 0.3s ease;
 }
@@ -84,8 +85,8 @@ nav {
 }
 
 .btn:active {
-    transform: scale(0.95); /* Scale down on click */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow on click */
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .btn.clicked {

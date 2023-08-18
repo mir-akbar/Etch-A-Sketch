@@ -5,6 +5,18 @@ const sizeValue = document.querySelector("#sizeValue");
 const gridLinesBtn = document.querySelector("#gridLines");
 const colorPicker = document.querySelector("#colorPicker");
 
+let mouseDown = false;
+document.body.onmousedown = () => (mouseDown = true);
+document.body.onmouseup = () => (mouseDown = false);
+
+function paintGrid(e) {
+  const color = colorPicker.value;
+  if (e.type === "mouseover" && !mouseDown) return;
+  else {
+    e.target.style.backgroundColor = color;
+  }
+}
+
 function makeGrid(num = 16) {
   const cellSize = 100 / num;
 
@@ -50,14 +62,9 @@ function updateGridLines() {
   });
 }
 
-
-
 rangeSlider.addEventListener("input", (e) => {
   const value = e.target.value;
   sizeValue.textContent = `${value} x ${value}`;
   makeGrid(value);
   updateGridLines();
 });
-
-
-
