@@ -54,6 +54,10 @@ nav {
     cursor: pointer;
 }
 
+.colorPicker::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+
 .colorPicker::-webkit-color-swatch {
     -webkit-appearance: none;
     border-radius: 15px;
