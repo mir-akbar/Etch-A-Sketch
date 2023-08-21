@@ -1,6 +1,6 @@
 # Etch-A-Sketch
 
-The [Etch-A-Sketch](https://mir-akbar.github.io/Etch-A-Sketch/) project is a part of The Odin Project's curriculum and is located in the Foundation path. It offers an interactive web application where you can draw, shade, and lighten cells on a grid, providing an enjoyable way to create pixel art.
+The [Etch-A-Sketch](https://mir-akbar.github.io/Etch-A-Sketch/) project is a part of The Odin Project's curriculum and is located in the Foundation path in [JavaScript Basics](https://www.theodinproject.com/lessons/foundations-etch-a-sketch). It offers an interactive web application where you can draw, shade, and lighten cells on a grid, providing an enjoyable way to create pixel art.
 
 Visit [Etch-A-Sketch](https://mir-akbar.github.io/Etch-A-Sketch/) to start drawing!
 
@@ -59,8 +59,16 @@ While working on this project, I gained valuable experience in:
 - Utilizing JavaScript to manage grid behaviors and implement visual effects.
 - Enhancing the user experience through responsive design and interactive features.
 
-## Credits
+## Credits and Inspiration
 
-This project draws inspiration from The Odin Project's comprehensive curriculum, offering practical coding exercises for learning web development. The Etch-A-Sketch project is part of the Foundation path and comes after completing the Rock Paper Scissors project.
+### The Odin Project
+This project is part of [The Odin Project](https://www.theodinproject.com/), an open-source curriculum for learning web development. The project was completed as part of the curriculum's Foundation Path.
 
-For more information about The Odin Project and to start your journey in web development, visit [The Odin Project](https://www.theodinproject.com)!
+### Project Submissions
+I drew inspiration from the following project submissions, which helped me in shaping my own project:
+
+1. [Etch-A-Sketch by Michal Osman](https://github.com/michalosman/etch-a-sketch)
+2. [Esketch by bscottnz](https://bscottnz.github.io/esketch/)
+
+These project submissions provided valuable insights and ideas that contributed to the development of my project.
+
